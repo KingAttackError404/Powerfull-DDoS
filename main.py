@@ -240,6 +240,7 @@ if __name__ == '__main__':
             time.sleep(.1)    
     except(KeyboardInterrupt):
          os.system('cls' if os.name == 'nt' else 'clear')
+             pass
          
 #REMAKE BY PABLO
 #APAPUN YANG ANDA LAKUKAN ANDA HARUS BERTANGGUNG JAWAB
