@@ -147,7 +147,7 @@ def xxxx():
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxx():
-  data = random._urandom(3161)
+  data = random._urandom(1468)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
