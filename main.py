@@ -234,8 +234,7 @@ class MyThread(threading.Thread):
 
 if __name__ == '__main__':
     try:
-     for x in range(100):    
-             pass                                
+     for x in range(10):                  
             mythread = MyThread()  
             mythread.start()                                  
             time.sleep(.1)    
