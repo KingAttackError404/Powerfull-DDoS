@@ -234,13 +234,13 @@ class MyThread(threading.Thread):
 
 if __name__ == '__main__':
     try:
-     for x in range(100):                                    
+     for x in range(100):    
+             pass                                
             mythread = MyThread()  
             mythread.start()                                  
             time.sleep(.1)    
     except(KeyboardInterrupt):
          os.system('cls' if os.name == 'nt' else 'clear')
-             pass
          
 #REMAKE BY PABLO
 #APAPUN YANG ANDA LAKUKAN ANDA HARUS BERTANGGUNG JAWAB
