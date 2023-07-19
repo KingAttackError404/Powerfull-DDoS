@@ -9,7 +9,8 @@ import os
 pasw = "Pablo"
 
 os.system("clear")
-for i in range(3):
+print("LOGIN PANEL")
+for i in range(4):
     pwd = input(" Password : ")
     j = 3
     if (pwd == pasw):
